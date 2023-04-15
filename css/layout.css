@@ -1,94 +1,97 @@
 *{
-    box-sizing: content-box;
-}
-body{
+    box-sizing: inherit;
+  }
+  body{
     font-family: monospace;
     background-color:rgb(0, 0, 0);
     padding: 10px;
     color: whitesmoke;
     font-size: x-large;
-}
-.cabecalho{
+  }
+  .cabecalho{
     padding: 30px;
     text-align: center;
     background-color: rgba(1, 245, 245, 0.089);
-}
-
-.cabecalho h1{
+    image-rendering: pixelated;
+  }
+  
+  .cabecalho h1{
     font-size: 50px;
-}
-
-.colEsq{
+  }
+  
+  .colEsq{
     float: left;
     width: 100%;
     background-color: rgba(1, 245, 245, 0.089);
     padding-left: 15px;
-}
-
-.colDir {
+  }
+  
+  .colDir {
     float: left;
     width: 100%;
     background-color: rgba(1, 245, 245, 0.089);
     padding-left: 15px;
-}
-.topnave{
+  }
+  .topnave{
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: rgba(1, 245, 245, 0.089);
     margin-top: 50px;
-
-}
-
-.topnave a{
-    color: rgb(0, 0, 0);
-    padding: 05px 80px;
+  
+  }
+  
+  .topnave a{
+    color: rgb(255, 255, 255);
+    padding: 05px 44px;
     text-decoration: none;
     text-align: center;
-    border: rgb(0, 0, 0);
+    border: rgba(0, 0, 0);
     float:left;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-.topnave a:hover {
-    background-color: whitesmoke;
-    color: black;
-    border-top: solid 5px ;
-    border-bottom: solid 5px ;
-}
-
-.imagens{
-    background-color: whitesmoke;
+    margin-left: 08px;
+    margin-right: 08px;
+  }
+  
+  .topnave a:hover {
+    background-color: rgba(1, 245, 245, 0.089);
+    color: whitesmoke;
+    border-top: solid 10px;
+    border-bottom: solid 10px;
+    border-left: solid 10px;
+    border-right: solid 10px;
+  }
+  
+  .imagens{
+    background-color: rgba(1, 245, 245, 0.089);
     width: 100%;
     padding: 20px;
-}
-
-.card{
+  }
+  
+  .card{
     background-color: rgba(1, 245, 245, 0.089);
     padding: 110px;
     margin-top: 110px;
-}
-
-.principal::after{
+  }
+  
+  .principal::after{
     content: "";
     display: table;
     clear: both;
-}
-
-.imagens img{
+  }
+  
+  .imagens img{
     width: 40%;
-}
-@media screen and (max-width: 80px) {
+  }
+  @media screen and (max-width: 80px) {
     .colEsq,
     .colDir{
         width: 100%;
         padding: 0%;
     }
-}
-.insta img{
+  }
+  .insta img{
     width: 50px;
     vertical-align: bottom;
-}
-.arrobas p{
+  }
+  .arrobas p{
     margin-top: 30px;
     margin-bottom: 15px;
-}
+  }
